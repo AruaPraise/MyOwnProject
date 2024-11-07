@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Itim&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --site-main-color: red;
+    --site-minor-color: linear-gradient(to left, yellow, green); 
+    --site-minor1-color:linear-gradient(to right bottom, red, green, yellow);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+header{
+    width: auto;
+    /* width: 100%; */
+    height: 50px;
+    /* height: 100%; */
+    background-color: var(--site-main-color);
+    text-align: end;
+
+}
+header a {
+    text-decoration: none ;
+    font-size: 2em ;
+    /* font-family: "Edu AU VIC WA NT Pre", cursive; */
+    font-family: "Itim", serif;
+    padding: 0px 10px;
+    /* display: ruby */
+
+}
+header h1{
+    display: flex;
+    width: 40px;
+    position: absolute;
+    font-family: "Sour Gummy", sans-serif;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0cap;
+    font-size: 10px solid;
+    /* background:linear-gradient (to bottom right, red, green, yellow ); */
+    background:var(--site-minor1-color) ;
+    
+}
+button:hover{
+    background: var(--site-minor-color);
+}
